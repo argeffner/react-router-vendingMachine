@@ -1,0 +1,19 @@
+.Navbar {
+    background-color: rgb(107, 56, 201);
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .Navbar a {
+    padding: 5px 0;
+    display: inline-block;
+    color: rgb(255, 255, 255, 0.7);
+  }
+  
+  .Navbar a:hover {
+    color: rgb(237, 181, 98);
+  }
+  
+  .Navbar a.active{
+    color: white;
+  }

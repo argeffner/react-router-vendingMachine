@@ -1,0 +1,106 @@
+body {
+    /* background-image: url('https://camelbackvending.com/wp-content/uploads/2016/12/Empty-Vending-Machine-Getting-looked-at-for-any-potential-repairs-needed.jpg');
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat; */
+    background: linear-gradient(124deg, #76443c, #8a1515, #987e27, #1de840, #1ddde8, #2b1de8, #730b7d);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 30s ease infinite;
+    -z-animation: rainbow 30s ease infinite;
+    -o-animation: rainbow 30s ease infinite;
+    animation: rainbow 30s ease infinite;}
+
+.VendingMachine {
+    text-align: center;
+    align-items: center;
+  }
+
+  h1 {
+    color: white;
+  }
+  .title {
+    padding: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0 35%;
+    bottom: 20%;  
+    background-color: black;
+    border-radius: 50%;
+  }
+  .images {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img {
+    margin: 1rem;
+    width: 400px;
+    height: 300px;
+    border-radius: 30%;
+
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+  }
+
+  
+  img:hover {
+    width: 450px;
+    height: 350px;
+    border-radius: 30%;
+    transition: 1s;
+  }
+  
+  @-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    10%{background-position:25% 74%}
+    20%{background-position:45% 57%}
+    30%{background-position:65% 44%}
+    40%{background-position:85% 30%}
+    50%{background-position:100% 19%}
+    60%{background-position:85% 30%}
+    70%{background-position:65% 44%}
+    80%{background-position:45% 57%}
+    90%{background-position:25% 74%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    10%{background-position:25% 74%}
+    20%{background-position:45% 57%}
+    30%{background-position:65% 44%}
+    40%{background-position:85% 30%}
+    50%{background-position:100% 19%}
+    60%{background-position:85% 30%}
+    70%{background-position:65% 44%}
+    80%{background-position:45% 57%}
+    90%{background-position:25% 74%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    10%{background-position:25% 74%}
+    20%{background-position:45% 57%}
+    30%{background-position:65% 44%}
+    40%{background-position:85% 30%}
+    50%{background-position:100% 19%}
+    60%{background-position:85% 30%}
+    70%{background-position:65% 44%}
+    80%{background-position:45% 57%}
+    90%{background-position:25% 74%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    10%{background-position:25% 74%}
+    20%{background-position:45% 57%}
+    30%{background-position:65% 44%}
+    40%{background-position:85% 30%}
+    50%{background-position:100% 19%}
+    60%{background-position:85% 30%}
+    70%{background-position:65% 44%}
+    80%{background-position:45% 57%}
+    90%{background-position:25% 74%}
+    100%{background-position:0% 82%}
+}

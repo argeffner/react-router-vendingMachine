@@ -1,0 +1,89 @@
+h1 {
+    color: white;
+    text-align: center;
+  }
+
+.btm {
+  position: absolute;
+  bottom: 50px; 
+  left: 42.5%;
+  color: black;
+}
+
+.Tea {
+  position: absolute;
+  top: 35%;
+  left: 42.5%;
+  transform: translateY(-50%, -50%);
+  width: 200px;
+  height: 300px;
+  border: 10px solid black; 
+  border-top: 2px solid transparent;
+  border-radius: 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  overflow: hidden;
+}
+
+.Tea:before {
+  content:"";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #b8d3de;
+  left: -50%;
+  transform: translateY(1%);
+  border-radius: 40%;
+  animation: fill 7s ease-in-out;
+}
+
+@keyframes fill {
+  from {
+    top: 550px;
+    transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+    top: 205px;
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+.fluid {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translateY(0%);
+  width: 10px;
+  height: 520px;
+  border-top: 2px solid transparent;
+  border-radius: 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  overflow: hidden;
+}
+
+.fluid:before {
+  content:"";
+  position: absolute;
+  width: 15px;
+  height: 2000px;
+  background: #b8d3de;
+  left: -25%;
+  transform: translateY(-50%);
+  border-radius: 25px;
+  animation: move 7s ease-in-out;
+  animation-fill-mode: forwards;
+}
+  
+@keyframes move {
+  from {
+    top: -745px;
+    transform: translateY(-50%);
+    overflow:hidden;
+  }
+  to {
+    top: -30px;
+    transform: translateY(25%);
+    visibility:hidden;
+  }
+}
